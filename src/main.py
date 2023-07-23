@@ -15,7 +15,7 @@ def choose_one(choose_dict):
         else:
             return int(position)
 
-def mine():
+def main():
     hhparser = HHParser()
     dbcreator = DBCreator()
     dbmanager = DBManager()
@@ -65,5 +65,5 @@ employers = [(4934, 'билайн'),
              (39305, 'ПАО "Газпромнефть"')]
 
 if __name__ == '__main__':
-    mine()
+    main()
 
